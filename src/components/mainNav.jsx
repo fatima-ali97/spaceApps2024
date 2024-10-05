@@ -3,7 +3,7 @@ function mainNav() {
     <>
       <nav>
         <ul>
-          <li>hi</li>
+          <li>h i</li>
           <li></li>
           <li></li>
         </ul>
