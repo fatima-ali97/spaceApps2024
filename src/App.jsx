@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Papa from "papaparse";
 import "./App.css";
-import "./components/mainNav";
+import MainNav from "./components/mainNav";
+("./components/mainNav");
 import { Bar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -197,7 +198,7 @@ function App() {
 
   return (
     <>
-      <mainNav></mainNav>
+      <MainNav></MainNav>
       <div id="dashboard">
         <h1>
           Dataset name: Pilot top-down CO2 Budget constrained by the v10 OCO-2

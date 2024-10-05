@@ -1,9 +1,9 @@
-function mainNav() {
+function MainNav() {
   return (
     <>
       <nav>
         <ul>
-          <li>h i</li>
+          <li></li>
           <li></li>
           <li></li>
         </ul>
@@ -12,4 +12,4 @@ function mainNav() {
   );
 }
 
-export default mainNav;
+export default MainNav;
