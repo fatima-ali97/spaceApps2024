@@ -3,8 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
 }
-
+#navigation {
+  flex: 1;
+}
 #dashboard {
   flex: 2;
 }
@@ -23,7 +26,6 @@
 
 #links-list {
   list-style-type: none;
-  flex: 1;
 }
 @keyframes logo-spin {
   from {
