@@ -5,6 +5,9 @@
   text-align: center;
 }
 
+#dashboard {
+  flex: 2;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -20,6 +23,7 @@
 
 #links-list {
   list-style-type: none;
+  flex: 1;
 }
 @keyframes logo-spin {
   from {
