@@ -4,7 +4,7 @@ import references from "../assets/references.svg";
 function MainNav() {
   return (
     <>
-      <nav>
+      <nav className="navigation">
         <ul id="links-list">
           <li>
             <img src={dashboard} />
